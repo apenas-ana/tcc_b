@@ -1,0 +1,41 @@
+telephony_identifiers_leakage::This application reads the current location of the device
+telephony_identifiers_leakage::This application reads the unique device ID, i.e the IMEI for GSM and the MEID or ESN for CDMA phones
+telephony_identifiers_leakage::This application reads the phone number string for line 1, for example, the MSISDN for a GSM phone
+telephony_identifiers_leakage::This application reads the numeric name (MCC+MNC) of current registered operator
+telephony_identifiers_leakage::This application reads the SIM's serial number
+telephony_identifiers_leakage::This application reads the unique subscriber ID, for example, the IMSI for a GSM phone
+telephony_identifiers_leakage::This application reads the Location Area Code value
+telephony_identifiers_leakage::This application reads the Cell ID value
+device_settings_harvesting::This application logs the message '0' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'You have set ads view invisible.  You must call ads view.setVisibility(View.VISIBLE).' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'Unable to fetch image for ad from adwo server.' under the tag 'Splash Ads'
+device_settings_harvesting::This application logs the message 'Adwo SDK Adwo_Pid inexist' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'Adwo SDK Adwo_Pid inexist Adwo SDK Server busy' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'Adwo SDK Adwo_Pid inexist Adwo SDK Server busy Adwo SDK Adwo_Pid inactive' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'Adwo SDK Adwo_Pid inexist Adwo SDK Server busy Adwo SDK Adwo_Pid inactive Adwo SDK 1' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'Get an ad from Adwo servers.' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message '4' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'Could not get ad click url from  server.' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message '5' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'Could not get ad from Adwo servers,Network Error!' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message 'Could not read Adwo_PID meta-data from AndroidManifest.xml.' under the tag 'Adwo SDK'
+device_settings_harvesting::This application logs the message '6' under the tag 'adwo'
+device_settings_harvesting::This application logs the message 'translate down' under the tag 'Adwo AdSDK'
+device_settings_harvesting::This application logs the message 'Showing and enabling bottom bar' under the tag 'Adwo AdSDK'
+device_settings_harvesting::This application logs the message '1' under the tag 'Adwo AdSDK'
+device_settings_harvesting::This application logs the message '3' under the tag 'Adwo AdSDK'
+device_settings_harvesting::This application logs the message 'Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;' under the tag 'Adwo AdSDK'
+device_settings_harvesting::This application logs the message '\xe6\xb2\xa1\xe6\x9c\x89\xe5\x8f\x96\xe5\x88\xb0\xe5\xb9\xbf\xe5\x91\x8a\xe6\x95\xb0\xe6\x8d\xae\xef\xbc\x81' under the tag 'Ju6 Ad'
+device_settings_harvesting::This application logs the message 'Lcom/ju6/AdManager;->isAdFinish()Z' under the tag 'Ju6 Ad'
+device_settings_harvesting::This application logs the message '\xe5\xbc\x80\xe5\xa7\x8b\xe5\x8f\x96\xe6\x89\x8b\xe6\x9c\xba\xe4\xbf\xa1\xe6\x81\xaf...' under the tag 'Ju6 Ad'
+device_settings_harvesting::This application logs the message '2' under the tag 'Ju6 Ad'
+device_settings_harvesting::This application logs the message '\xe4\xb8\x8d\xe8\x83\xbd\xe8\xbf\x9e\xe6\x8e\xa5\xe5\x88\xb0\xe7\xbd\x91\xe7\xbb\x9c\xef\xbc\x8c\xe8\xaf\xb7\xe6\xa3\x80\xe6\x9f\xa5\xe7\xbd\x91\xe7\xbb\x9c\xe9\x85\x8d\xe7\xbd\xae\xef\xbc\x81' under the tag 'Ju6 Ad'
+device_settings_harvesting::This application logs the message 'runcmd_wrapper begin' under the tag 'msg'
+device_settings_harvesting::This application logs the message 'runcmd_wrapper begin' under the tag 'lilhermitCore'
+connection_interfaces_exfiltration::This application reads details about the currently active data network
+telephony_services_abuse::This application makes phone calls
+suspicious_connection_establishment::This application opens a Socket and connects it to the remote address 'localhost' on the '11009' port 
+PIM_data_leakage::This application reads the SMS inbox
+code_execution::This application loads a native library: 'native'
+code_execution::This application executes a UNIX command containing this argument: 'su'
+code_execution::This application executes a UNIX command containing this argument: '4'

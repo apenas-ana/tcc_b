@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Androwarn report</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Le styles -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<style type="text/css">
+	body {
+		padding-top: 60px;
+		padding-bottom: 40px;
+	}
+	.sidebar-nav {
+		padding: 9px 0;
+	}
+	</style>
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le fav and touch icons -->
+	<link rel="shortcut icon" href="ico/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="brand">Androwarn Report</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li><a>com.software.application</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row-fluid">
+
+			<div class="span3">
+				<div class="well sidebar-nav">
+					<ul class="nav nav-list">
+					<li class="nav-header">Application Information</li>
+			<li class="active"><a href="#application-name" data-toggle="tab">Application Name</a></li>
+			<li><a href="#application-version" data-toggle="tab">Application Version</a></li>
+			<li><a href="#package-name" data-toggle="tab">Package Name</a></li>
+			<li><a href="#description" data-toggle="tab">Description</a></li>
+			<li class="nav-header">Analysis Results</li>
+			<li><a href="#telephony-identifiers-leakage" data-toggle="tab">Telephony Identifiers Leakage</a></li>
+			<li><a href="#device-settings-harvesting" data-toggle="tab">Device Settings Harvesting</a></li>
+			
+			
+			
+			
+			
+			
+			
+			<li class="nav-header">Apk File</li>
+			<li><a href="#file-name" data-toggle="tab">File Name</a></li>
+			<li><a href="#fingerprint" data-toggle="tab">Fingerprint</a></li>
+			<li><a href="#file-list" data-toggle="tab">File List</a></li>
+			<li><a href="#certificate-information" data-toggle="tab">Certificate Information</a></li>
+			<li class="nav-header">Androidmanifest.xml</li>
+			<li><a href="#main-activity" data-toggle="tab">Main Activity</a></li>
+			<li><a href="#activities" data-toggle="tab">Activities</a></li>
+			
+			
+			<li><a href="#permissions" data-toggle="tab">Permissions</a></li>
+			
+			
+			<li class="nav-header">Apis Used</li>
+			<li><a href="#classes-list" data-toggle="tab">Classes List</a></li>
+			<li><a href="#internal-classes-list" data-toggle="tab">Internal Classes List</a></li>
+			<li><a href="#external-classes-list" data-toggle="tab">External Classes List</a></li>
+			<li><a href="#internal-packages-list" data-toggle="tab">Internal Packages List</a></li>
+			<li><a href="#external-packages-list" data-toggle="tab">External Packages List</a></li>
+			<li><a href="#intents-sent" data-toggle="tab">Intents Sent</a></li>
+						
+					</ul>
+				</div><!--/.well -->
+			</div><!--/span-->
+
+			<div class="span9">
+				<div class="hero-unit" id="Package_name">
+					<div class="tab-content">
+					
+						<div class="tab-pane active" id="application-name">
+							<h2>Application Name</h2>
+							<h3>N/A</h3>
+						</div>
+					
+						<div class="tab-pane" id="application-version">
+							<h2>Application Version</h2>
+							<h3>1.0</h3>
+						</div>
+					
+						<div class="tab-pane" id="package-name">
+							<h2>Package Name</h2>
+							<h3>com.software.application</h3>
+						</div>
+					
+						<div class="tab-pane" id="description">
+							<h2>Description</h2>
+							<h3>N/A</h3><h3>N/A</h3>
+						</div>
+					
+						<div class="tab-pane" id="telephony-identifiers-leakage">
+							<h2>Telephony Identifiers Leakage</h2>
+							<h3>This application reads the numeric name (MCC+MNC) of current registered operator</h3>
+						</div>
+					
+						<div class="tab-pane" id="device-settings-harvesting">
+							<h2>Device Settings Harvesting</h2>
+							<h3>This application logs the message 'Ljava/lang/Exception;->getMessage()Ljava/lang/String;' under the tag 'DEBUGGING'</h3>
+						</div>
+					
+						<div class="tab-pane" id="file-name">
+							<h2>File Name</h2>
+							<h3>e70d22a482f2ff568fc84650513a58b816c3d402f81405f739b5b769079e1fae_L9zdzFy</h3>
+						</div>
+					
+						<div class="tab-pane" id="fingerprint">
+							<h2>Fingerprint</h2>
+							<h3>MD5: ff41c9a8ca164bf7c6d049021f940059</h3><h3>SHA-1: 6583a751dfd34bf37b4e25b9d2e5ca9b98f4be25</h3><h3>SHA-256: e70d22a482f2ff568fc84650513a58b816c3d402f81405f739b5b769079e1fae</h3>
+						</div>
+					
+						<div class="tab-pane" id="file-list">
+							<h2>File List</h2>
+							<h3>META-INF/MANIFEST.MF</h3><h3>META-INF/APKSEND2.SF</h3><h3>META-INF/APKSEND2.RSA</h3><h3>res/drawable/btn_green.9.png</h3><h3>res/drawable/btn_green_pressed.9.png</h3><h3>res/drawable/btn_title_active.xml</h3><h3>res/drawable/btn_title_active_disabled.9.png</h3><h3>res/drawable/btn_title_active_focused.9.png</h3><h3>res/drawable/btn_title_active_normal.9.png</h3><h3>res/drawable/btn_title_active_pressed.9.png</h3><h3>res/drawable/checkbox.xml</h3><h3>res/drawable/checkbox_background.xml</h3><h3>res/drawable/checkbox_label_background.9.png</h3><h3>res/drawable/checkbox_off_background.png</h3><h3>res/drawable/checkbox_off_background_focus_yellow.png</h3><h3>res/drawable/checkbox_on_background.png</h3><h3>res/drawable/checkbox_on_background_focus_yellow.png</h3><h3>res/drawable/content_icon.png</h3><h3>res/drawable/green_button_background.xml</h3><h3>res/drawable/ic_dialog_info.png</h3><h3>res/drawable/ic_push.png</h3><h3>res/drawable/icon.png</h3><h3>res/drawable-hdpi/icon.png</h3><h3>res/drawable-ldpi/icon.png</h3><h3>res/drawable-mdpi/icon.png</h3><h3>res/layout/grant_access_to_content.xml</h3><h3>res/layout/main.xml</h3><h3>res/layout/off.xml</h3><h3>res/menu/main_menu.xml</h3><h3>res/raw/act_schemes.cfg</h3><h3>res/xml/texts.xml</h3><h3>AndroidManifest.xml</h3><h3>classes.dex</h3><h3>resources.arsc</h3>
+						</div>
+					
+						<div class="tab-pane" id="certificate-information">
+							<h2>Certificate Information</h2>
+							<h3>Issuer:</h3><h3>C=US</h3><h3>ST=CA</h3><h3>L=Los Angeles</h3><h3>O=ADV</h3><h3>OU=Tech</h3><h3>CN=tech<br/><br/></h3><h3>Subject:</h3><h3>C=US</h3><h3>ST=CA</h3><h3>L=Los Angeles</h3><h3>O=ADV</h3><h3>OU=Tech</h3><h3>CN=tech<br/><br/></h3><h3>Serial number: 24ED6494</h3><h3>SHA-1 thumbprint: 7B55605EED214B6C24AD5305133E511F07A61048</h3>
+						</div>
+					
+						<div class="tab-pane" id="main-activity">
+							<h2>Main Activity</h2>
+							<h3>com.software.application.Main</h3>
+						</div>
+					
+						<div class="tab-pane" id="activities">
+							<h2>Activities</h2>
+							<h3>com.software.application.Main</h3><h3>com.software.application.OffertActivity</h3><h3>com.software.application.ShowLink</h3>
+						</div>
+					
+						<div class="tab-pane" id="permissions">
+							<h2>Permissions</h2>
+							<h3>android.permission.WRITE_EXTERNAL_STORAGE</h3><h3>android.permission.INTERNET</h3><h3>android.permission.READ_PHONE_STATE</h3><h3>android.permission.READ_SMS</h3><h3>android.permission.SEND_SMS</h3><h3>android.permission.RECEIVE_SMS</h3>
+						</div>
+					
+						<div class="tab-pane" id="classes-list">
+							<h2>Classes List</h2>
+							<h3>android.app.Activity</h3><h3>android.app.AlarmManager</h3><h3>android.app.Notification</h3><h3>android.app.NotificationManager</h3><h3>android.app.PendingIntent</h3><h3>android.app.ProgressDialog</h3><h3>android.content.BroadcastReceiver</h3><h3>android.content.Context</h3><h3>android.content.Intent</h3><h3>android.content.IntentFilter</h3><h3>android.content.SharedPreferences</h3><h3>android.content.res.Resources</h3><h3>android.content.res.XmlResourceParser</h3><h3>android.net.Uri</h3><h3>android.os.AsyncTask</h3><h3>android.telephony.TelephonyManager</h3><h3>android.text.SpannableString</h3><h3>android.text.style.UnderlineSpan</h3><h3>android.util.Log</h3><h3>android.util.Pair</h3><h3>android.view.MenuInflater</h3><h3>android.view.MenuItem</h3><h3>android.view.animation.Animation</h3><h3>android.view.animation.TranslateAnimation</h3><h3>android.widget.Button</h3><h3>android.widget.ProgressBar</h3><h3>android.widget.TextView</h3><h3>android.widget.Toast</h3><h3>com.software.application.Actor</h3><h3>com.software.application.Checker</h3><h3>com.software.application.Main</h3><h3>com.software.application.Notificator</h3><h3>com.software.application.OffertActivity</h3><h3>com.software.application.Scheme</h3><h3>com.software.application.Sender</h3><h3>com.software.application.ShowLink</h3><h3>com.software.application.TextUtils</h3><h3>com.software.application.Utils</h3><h3>dalvik.system.DexClassLoader</h3><h3>java.io.BufferedInputStream</h3><h3>java.io.BufferedReader</h3><h3>java.io.File</h3><h3>java.io.FileOutputStream</h3><h3>java.io.InputStream</h3><h3>java.io.InputStreamReader</h3><h3>java.io.OutputStream</h3><h3>java.lang.Class</h3><h3>java.lang.Exception</h3><h3>java.lang.Integer</h3><h3>java.lang.Object</h3><h3>java.lang.String</h3><h3>java.lang.StringBuilder</h3><h3>java.lang.System</h3><h3>java.net.URL</h3><h3>java.net.URLConnection</h3><h3>java.util.ArrayList</h3><h3>java.util.HashMap</h3><h3>java.util.Random</h3>
+						</div>
+					
+						<div class="tab-pane" id="internal-classes-list">
+							<h2>Internal Classes List</h2>
+							<h3>com.software.application.Actor</h3><h3>com.software.application.Checker</h3><h3>com.software.application.Main</h3><h3>com.software.application.Notificator</h3><h3>com.software.application.OffertActivity</h3><h3>com.software.application.ShowLink</h3><h3>com.software.application.SmsReceiver</h3><h3>com.software.application.Utils</h3>
+						</div>
+					
+						<div class="tab-pane" id="external-classes-list">
+							<h2>External Classes List</h2>
+							<h3>com.software.application.Actor</h3><h3>com.software.application.BuildConfig</h3><h3>com.software.application.Checker</h3><h3>com.software.application.Main</h3><h3>com.software.application.Notificator</h3><h3>com.software.application.OffertActivity</h3><h3>com.software.application.R</h3><h3>com.software.application.Scheme</h3><h3>com.software.application.ShowLink</h3><h3>com.software.application.SmsReceiver</h3><h3>com.software.application.TextUtils</h3><h3>com.software.application.Utils</h3>
+						</div>
+					
+						<div class="tab-pane" id="internal-packages-list">
+							<h2>Internal Packages List</h2>
+							<h3>com.software.application</h3>
+						</div>
+					
+						<div class="tab-pane" id="external-packages-list">
+							<h2>External Packages List</h2>
+							<h3>com.software.application</h3>
+						</div>
+					
+						<div class="tab-pane" id="intents-sent">
+							<h2>Intents Sent</h2>
+							<h3>SENDING_OK</h3><h3>SENDED</h3><h3>android.intent.action.VIEW</h3>
+						</div>
+					
+					</div>
+				</div>
+			</div><!--/span-->
+
+		</div><!--/row-->
+	<hr>
+
+	<footer>
+		<p>&copy; Androwarn</p>
+		<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/fr/"><img alt="Licence Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/fr/80x15.png" /></a></p>
+	</footer>
+
+	</div><!--/.fluid-container-->
+
+	<!-- Le javascript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap-transition.js"></script>
+	<script src="js/bootstrap-alert.js"></script>
+	<script src="js/bootstrap-modal.js"></script>
+	<script src="js/bootstrap-dropdown.js"></script>
+	<script src="js/bootstrap-scrollspy.js"></script>
+	<script src="js/bootstrap-tab.js"></script>
+	<script src="js/bootstrap-tooltip.js"></script>
+	<script src="js/bootstrap-popover.js"></script>
+	<script src="js/bootstrap-button.js"></script>
+	<script src="js/bootstrap-collapse.js"></script>
+	<script src="js/bootstrap-carousel.js"></script>
+	<script src="js/bootstrap-typeahead.js"></script>
+
+	<script>
+		$(function () {
+			$('#myTab a:last').tab('show');
+			$('.sidebar-nav a[href*=#]').click(function(){$('body').animate({ scrollTop: 0}, 200); });
+		})
+	</script>
+
+  </body>
+</html>

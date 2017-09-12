@@ -1,0 +1,28 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_modify adminmedia %}
+{% block extrahead %}{{ block.super }}
+{% url admin:jsi18n as jsi18nurl %}
+<script src="{{ jsi18nurl|default:" type="text/javascript"><!--mce:0--></script>  
+{% endblock %}
+{% block extrastyle %}{{ block.super }}
+{% endblock %}
+{% block bodyclass %}{{ opts.app_label }}-{{ opts.object_name.lower }} change-form{% endblock %}
+{% block breadcrumbs %}{% if not is_popup %}
+<div class="breadcrumbs">  
+     <a href="../../../../">{% trans "Home" %}</a> ›
+     <a href="../../../">{{ opts.app_label|capfirst|escape }}</a> ›
+     <a href="../../">{{ opts.verbose_name_plural|capfirst }}</a> ›
+     <a href="../">{{ opts.verbose_name|capfirst }} #{{ entry.pk }}</a> ›
+     {% trans 'Review Entry' %}</div>
+{% endif %}{% endblock %}
+{% block content %}
+<form action="." method="post">  
+<fieldset class="module aligned">  
+<div class="form-row">  
+      <label>Entry</label>
+      <textarea style="height: 136px; width: 161px; margin: 2px;" rows="10">{{ entry.body }}</textarea></div></fieldset>
+<div class="submit-row">  
+<input class="default" type="submit" value="{% trans 'Review' %}" /></div>  
+</form>
+
+{% endblock %}
