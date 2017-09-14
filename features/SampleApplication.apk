@@ -1,0 +1,69 @@
+telephony_identifiers_leakage::This application reads the phone's current state
+telephony_identifiers_leakage::This application reads the current location of the device
+telephony_identifiers_leakage::This application reads the unique device ID, i.e the IMEI for GSM and the MEID or ESN for CDMA phones
+telephony_identifiers_leakage::This application reads the software version number for the device, for example, the IMEI/SV for GSM phones
+telephony_identifiers_leakage::This application reads the numeric name (MCC+MNC) of current registered operator
+telephony_identifiers_leakage::This application reads the operator name
+telephony_identifiers_leakage::This application reads the SIM's serial number
+telephony_identifiers_leakage::This application reads the unique subscriber ID, for example, the IMSI for a GSM phone
+telephony_identifiers_leakage::This application reads the Location Area Code value
+telephony_identifiers_leakage::This application reads the Cell ID value
+device_settings_harvesting::This application logs the message '1 SMS Message Received' under the tag 'Incoming SMSMessage'
+device_settings_harvesting::This application logs the message 'Broadcast Aborted' under the tag 'Incoming SMSMessage'
+device_settings_harvesting::This application logs the message 'pdus ' under the tag 'Incoming SMSMessage'
+device_settings_harvesting::This application logs the message '9' under the tag 'AddContact'
+device_settings_harvesting::This application logs the message 'Landroid/os/RemoteException;->getMessage()Ljava/lang/String;' under the tag 'AddContact'
+device_settings_harvesting::This application logs the message 'Landroid/content/OperationApplicationException;->getMessage()Ljava/lang/String;' under the tag 'AddContact'
+device_settings_harvesting::This application logs the message 'Failed to prepare the video recorder handler' under the tag 'CaptureVideo'
+device_settings_harvesting::This application logs the message '8' under the tag 'DeleteContact'
+device_settings_harvesting::This application logs the message 'Landroid/os/RemoteException;->getMessage()Ljava/lang/String;' under the tag 'DeleteContact'
+device_settings_harvesting::This application logs the message 'Landroid/content/OperationApplicationException;->getMessage()Ljava/lang/String;' under the tag 'DeleteContact'
+device_settings_harvesting::This application logs the message '8' under the tag 'FileNotFoundException'
+device_settings_harvesting::This application logs the message 'Ljava/lang/StringBuilder;->toString()Ljava/lang/String;' under the tag 'GetLocationInformation'
+device_settings_harvesting::This application logs the message 'Call Activity Failed' under the tag 'MakeCall'
+device_settings_harvesting::This application logs the message 'Ljava/net/UnknownHostException;->getMessage()Ljava/lang/String;' under the tag 'String Socket'
+device_settings_harvesting::This application logs the message 'Ljava/io/IOException;->getMessage()Ljava/lang/String;' under the tag 'String Socket'
+device_settings_harvesting::This application logs the message 'Ljava/net/UnknownHostException;->getMessage()Ljava/lang/String;' under the tag 'Inet Socket'
+device_settings_harvesting::This application logs the message 'Ljava/io/IOException;->getMessage()Ljava/lang/String;' under the tag 'Inet Socket'
+device_settings_harvesting::This application logs the message '4' under the tag 'ReadContacts'
+device_settings_harvesting::This application logs the message 'Landroid/net/wifi/WifiConfiguration;->toString()Ljava/lang/String;' under the tag 'ReadWiFiCredentials'
+device_settings_harvesting::This application logs the message 'There isnt any memory card' under the tag 'RecordAudio'
+device_settings_harvesting::This application logs the message 'Impossible to write on the sdcard' under the tag 'RecordAudio'
+device_settings_harvesting::This application logs the message 'I/O Problem before recording' under the tag 'RecordAudio'
+device_settings_harvesting::This application logs the message 'Failed to prepare the audio recorder handler' under the tag 'RecordAudio'
+device_settings_harvesting::This application logs the message 'Ljava/util/Arrays;->toString([Ljava/lang/Object;)Ljava/lang/String;' under the tag 'UNIX Command'
+device_settings_harvesting::This application logs the message 'Ljava/lang/StringBuffer;->toString()Ljava/lang/String;' under the tag 'UNIX Command'
+location_lookup::This application reads location information from all available providers (WiFi, GPS etc.)
+connection_interfaces_exfiltration::This application reads the WiFi credentials
+telephony_services_abuse::This application makes phone calls
+telephony_services_abuse::This application intercepts your incoming SMS
+telephony_services_abuse::This application disables incoming SMS notifications
+telephony_services_abuse::This application sends an SMS message 'Premium SMS' to the '12345' phone number
+audio_video_eavesdropping::This application records audio from the 'VOICE_CALL' source 
+audio_video_eavesdropping::This application captures video from the 'CAMERA' source
+suspicious_connection_establishment::This application opens a Socket and connects it to the remote address '192.168.56.101' on the '1337' port 
+suspicious_connection_establishment::This application opens a Socket and connects it to the remote address '192.168.56.101 Ljava/net/InetAddress;->getByName(Ljava/lang/String;)Ljava/net/InetAddress;' on the '1338' port 
+PIM_data_leakage::This application reads or edits contact data
+PIM_data_leakage::This application reads the SMS inbox
+code_execution::This application loads a native library: 'nativecode'
+code_execution::This application executes a UNIX command containing this argument: '/sdcard/'
+main_activity::com.androwarn.sampleapplication.SampleApplication
+activity::com.androwarn.sampleapplication.SampleApplication
+permission::android.permission.READ_PHONE_STATE
+permission::android.permission.ACCESS_NETWORK_STATE
+permission::android.permission.RECORD_AUDIO
+permission::android.permission.WRITE_EXTERNAL_STORAGE
+permission::android.permission.CALL_PHONE
+permission::android.permission.ACCESS_FINE_LOCATION
+permission::android.permission.ACCESS_COARSE_LOCATION
+permission::android.permission.READ_CONTACTS
+permission::android.permission.WRITE_CONTACTS
+permission::android.permission.INTERNET
+permission::android.permission.RECORD_VIDEO
+permission::android.permission.CAMERA
+permission::android.permission.RECEIVE_SMS
+permission::android.permission.READ_SMS
+permission::android.permission.WRITE_SMS
+permission::android.permission.SEND_SMS
+feature::android.hardware.telephony
+intents_sent::android.intent.action.CALL

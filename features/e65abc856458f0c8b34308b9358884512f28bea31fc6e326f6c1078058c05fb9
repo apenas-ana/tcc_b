@@ -1,2 +1,0 @@
-telephony_identifiers_leakage::This application reads the phone number string for line 1, for example, the MSISDN for a GSM phone
-PIM_data_leakage::This application reads or edits contact data

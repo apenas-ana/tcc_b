@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from .views import index, analise, bulkload, tsnejs, search, decisionTreeViewer
+from .views import index, analise, bulkload, tsnejs, search, decisionTreeViewer, jsonresponse
 
 urlpatterns = [
     url(r'^$', index, name ="index"),
@@ -8,4 +8,5 @@ urlpatterns = [
     url(r'^tsnejs/', tsnejs, name ="tsnejs"),
     url(r'^search/', search, name="search"),
     url(r'^decisionTreeViewer/', decisionTreeViewer, name="decisionTreeViewer"),
+    url(r'^jsonresponse/', jsonresponse, name="jsonresponse"),
 ]
